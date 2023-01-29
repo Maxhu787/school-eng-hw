@@ -4,9 +4,6 @@
 ## Spain
 In Spain, it is customary to eat 12 grapes – one at each stroke of the clock at midnight on New Year’s Eve. Each grape represents good luck for one month of the coming year. In bigger cities like Madrid and Barcelona, people gather in main squares to eat their grapes together and pass around bottles of cava.
 
-## Colombia
-In hopes of a travel-filled new year, residents of Colombia carry empty suitcases around the block.
-
 ## Denmark
 Residents of Denmark greet the New Year by throwing old plates and glasses against the doors of family and friends to banish bad spirits. They also stand on chairs and jump off of them together at midnight to “leap” into January in hopes of good luck.
 
