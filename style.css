@@ -67,10 +67,11 @@ h2 {
 
 nav {
     position: fixed;
-    top: 90px;
+    top: 80px;
     left: 55px;
     z-index: 100;
 }
+
 
 ul {
     position: relative;
@@ -161,9 +162,10 @@ ul li:last-child::after {
 
 footer {
     position: fixed;
-    left: 15px;
+    left: 35px;
     bottom: 10px;
     font-size: 2em;
+    z-index: 200;
 }
 
 .rainbow_text_animated {
@@ -188,13 +190,15 @@ footer {
 }
 
 #qr-code {
+    z-index: 200;
     height: 130px;
     width: 130px;
     position: fixed;
-    top: 620px;
+    bottom: 60px;
     left: 70px;
     visibility: visible;
 }
+
 /* 
 @media (min-height: 600px) {
     #qr-code {
