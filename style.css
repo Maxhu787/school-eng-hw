@@ -193,7 +193,7 @@ footer {
     position: fixed;
     top: 620px;
     left: 70px;
-    visibility: hidden;
+    visibility: visible;
 }
 /* 
 @media (min-height: 600px) {
