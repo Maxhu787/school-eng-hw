@@ -39,8 +39,8 @@ h2 {
     height: 350px;
     border-radius: 10px;
     overflow: auto;
-    box-shadow: 6px 6px 10px #333;
-    transition: box-shadow .2s ease-in;
+    box-shadow: 6px 6px 10px #111;
+    transition: all .2s ease-in;
 }
 
 .item h4 {
@@ -60,9 +60,10 @@ h2 {
 }
 
 .item:hover {
+    transform: translateY(4px);
     cursor: pointer;
     box-shadow: none;
-    transition: box-shadow .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 nav {
