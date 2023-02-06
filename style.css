@@ -25,6 +25,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+
+
+    /* overflow: hidden; */
 }
 
 main {
@@ -40,6 +43,10 @@ h2 {
 
 a {
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color:#fff !important;
 }
 
 .item {
@@ -154,6 +161,7 @@ ul a {
 
 ul li:hover a {
     color: #fff;
+    text-decoration: none;
 }
 
 ul li:last-child::after {
@@ -221,3 +229,47 @@ footer {
         visibility: visible;
     }
 } */
+
+.expand {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10000;
+    margin: 0;
+    padding: 25vh 200px 0px 200px;
+    color: #fff;
+    display: inline-block;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 6px 6px 10px #111;
+    transition: all .2s ease-in;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.expand h4 {
+    font-size: 50px !important;
+}
+
+.expand p {
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.expand img {
+    height: 50px;
+}
+
+.close-msg {
+    text-transform: lowercase;
+    font-family: monospace;
+    color: #ffa500;
+    font-size: 25px !important;
+    display: none;
+    cursor: pointer;
+}
