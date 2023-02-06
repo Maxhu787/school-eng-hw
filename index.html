@@ -8,18 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=.5, user-scalable=no" />
 
     <title>New Year's Traditions From Cultures Around The World</title>
-    
+
     <meta name="description" content="New Year's Traditions From Cultures Around The World">
     <meta name="keywords" content="">
     <meta name="author" content="Hu Kaixiang">
-    
+
     <meta name="robots" content="index, follow">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    
+
     <link rel="stylesheet" href="./style.css">
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
@@ -27,7 +27,7 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
+
     <meta property="fb:page_id" content="">
     <meta property="og:title" content="New Year's Traditions From Cultures Around The World" />
     <meta property="og:image" content="" />
@@ -35,7 +35,7 @@
     <meta property="og:url" content="https://maxhu787.github.io/school-eng-hw/" />
     <meta property="og:site_name" content="New Year's Traditions From Cultures Around The World" />
     <meta property="og:type" content="website" />
-    
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://maxhu787.github.io/school-eng-hw/">
     <meta name="twitter:title" content="New Year's Traditions From Cultures Around The World">
@@ -194,10 +194,10 @@
             });
         });
 
-        closeMsg = document.querySelectorAll('.close-msg');
+        let closeMsg = document.querySelectorAll('.close-msg');
 
         function expand(id) {
-            if(document.getElementById(id).classList[0] == "expand") {
+            if (document.getElementById(id).classList[0] == "expand") {
                 document.getElementById(id).classList.remove("expand");
                 document.getElementById(id).classList.add("item");
                 document.body.style.overflow = "visible";
@@ -207,7 +207,8 @@
                 }
 
 
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({ top: 0});
             } else {
                 document.getElementById(id).classList.add("expand");
                 document.getElementById(id).classList.remove("item");
@@ -218,7 +219,8 @@
                 }
 
 
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({ top: 0 });
             }
         }
     </script>
