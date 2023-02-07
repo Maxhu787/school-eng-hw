@@ -16,6 +16,7 @@ body {
     background-color: #434750;
     color: #fff;
     text-align: center;
+    overflow-x: hidden;
     /* 
     background: linear-gradient(#e66465, #9198e5);
     background: linear-gradient(#e89700, rgb(0, 0, 0)); 
@@ -94,8 +95,11 @@ a:hover {
 
 nav {
     position: fixed;
-    top: 80px;
+    margin: 0;
+    top: 50%;
     left: 55px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 100;
 }
 
@@ -110,7 +114,8 @@ ul li {
     list-style: none;
     width: 200px;
     background-color: var(--nav-color);
-    padding: 15px;
+    /* padding: 15px; */
+    padding: 10%;
     z-index: var(--i);
     transition: 0.5s;
 }
