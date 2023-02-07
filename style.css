@@ -248,7 +248,7 @@ footer {
     position: absolute;
     z-index: 10000;
     margin: 0;
-    padding: 25vh 200px 0px 200px;
+    padding: 25vh 0px 0px 0px;
     color: #fff;
     display: inline-block;
     backdrop-filter: blur(20px);
