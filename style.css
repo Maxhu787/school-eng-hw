@@ -232,7 +232,7 @@ footer {
     position: absolute;
     z-index: 10000;
     margin: 0;
-    padding: 25vh 0px 0px 0px;
+    padding: 25vh 40px 20px 40px;
     color: #fff;
     display: inline-block;
     backdrop-filter: blur(20px);
@@ -240,7 +240,6 @@ footer {
     overflow: auto;
     box-shadow: 6px 6px 10px #111;
     transition: all .2s ease-in;
-    /* text-align: center; */
     cursor: pointer;
 }
 
@@ -251,7 +250,7 @@ footer {
 .expand p {
     font-size: 25px;
     font-family: monospace, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .expand .content-wrapper {
