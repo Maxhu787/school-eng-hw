@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
 
 :root {
-    --nav-color: rgba(41, 41, 41);
-    /* rgba(41, 41, 41) */
+    --nav-color: rgb(21, 21, 21);
 }
 
 * {
@@ -17,17 +16,23 @@ body {
     background-color: #434750;
     color: #fff;
     text-align: center;
-    /* background: linear-gradient(#e66465, #9198e5); */
-    /* background: linear-gradient(#e89700, rgb(0, 0, 0)); */
+    /* 
+    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#e89700, rgb(0, 0, 0)); 
+    */
+    
+    /* 
     background-attachment: fixed;
-
     background: url(./assets/img/1.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-
-
-    /* overflow: hidden; */
+    background-size: 100% 100%; 
+    */
+    background: url(./assets/img/2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 main {
@@ -258,7 +263,7 @@ footer {
     margin-top: 20px;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .expand img {
@@ -268,8 +273,8 @@ footer {
 .close-msg {
     text-transform: lowercase;
     font-family: monospace;
-    color: #ffa500;
-    font-size: 25px !important;
+    color: #fff;
+    font-size: 24px !important;
     display: none;
     cursor: pointer;
 }
