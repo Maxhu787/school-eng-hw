@@ -179,11 +179,17 @@ ul li:last-child::after {
 }
 
 footer {
+    /* background-color: red; */
     position: fixed;
-    left: 35px;
-    bottom: 10px;
+    left: 20px;
+    bottom: 20px;
     font-size: 2em;
     z-index: 200;
+}
+
+footer p {
+    font-size: 20px;
+    color: #888;
 }
 
 .rainbow_text_animated {
