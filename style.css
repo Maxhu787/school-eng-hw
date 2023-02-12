@@ -189,7 +189,12 @@ footer {
 
 footer p {
     font-size: 20px;
-    color: #888;
+    color: #aaa;
+}
+
+#cpy-right {
+    color: transparent;
+    text-align: center;
 }
 
 .rainbow_text_animated {
